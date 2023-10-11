@@ -1,0 +1,462 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#nav{
+    height: 8%;
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:150px ;
+    padding-right: 150px;
+}
+
+
+#middle{
+    display: flex;
+    gap: 35px;
+    font-size: 17px;
+    
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+}
+#middle h4{
+    cursor: pointer;
+}
+#middle h4:hover{
+    text-decoration: black underline;
+    color: blue;
+}
+#right{
+    display: flex;
+    gap: 30px;
+}
+#right button{
+    height: 40px;
+    width: 70px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 14px;
+}
+#right button:hover{
+    background-color: black;
+    color: white;
+}
+#right h5{
+    margin-top: 11px;
+    font-size: 17px;
+    cursor: pointer;
+    
+}
+#home{
+    height: 92%;
+    width: 100%;
+    background-color: rgb(251, 246, 246);
+    padding-top: 90px;
+    
+    
+}
+#textbig{
+    /* background-color: red; */
+    margin-left: 40%;
+    font-size: 25px;
+    word-spacing: 15px;
+}
+#textsmall{
+    /* background-color: green; */
+    margin-left: 44%;
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 500;
+}
+#downcard{
+    height: 280px;
+    width: 100%;
+    /* background-color: hotpink; */
+    display: flex;
+    justify-content: space-around;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 70px;
+    display: flex;
+    
+    
+}
+#cardone{
+    height: 280px;
+    width: 240px;
+    background-color: black;
+    border-radius: 15px;
+    /* box-shadow: 0px 8px 23px 14px rgba(0,0,0,0.75); */
+    color: white;
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 10px;
+}
+#date{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    background-color: rgba(240, 248, 255, 0.268);
+    border-radius: 10px;
+    margin-top: 8px;
+}
+#date button.one{
+    margin-top: 5px;
+    width: 43px;
+    height: 40px;
+    background-color: transparent;
+    color: rgb(252, 250, 248);
+    border: none;
+    cursor: pointer;
+}
+
+#date button.two{
+    margin-top: 5px;
+    width: 43px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#date button.three{
+    margin-top: 5px;
+    width: 43px;
+    height: 40px;
+    background-color:rgb(202, 192, 192);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+#date button.four{
+    margin-top: 5px;
+    width: 43px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+#date button.five{
+    margin-top: 5px;
+    width: 43px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+#divfs{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+
+}
+#divfs p{
+    font-size: 14px;
+    
+}
+#divfs button{
+    height: 40px;
+    width: 140px;
+    font-size: 19px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(76, 175, 142);
+    cursor: pointer;
+}
+#divsc{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+
+}
+#divsc p{
+    font-size: 14px;
+    
+}
+#divsc button{
+    height: 40px;
+    width: 140px;
+    font-size: 19px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(81, 78, 78);
+    cursor: pointer;
+}
+#divthr{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+
+}
+#divthr p{
+    font-size: 14px;
+    
+}
+#divthr button{
+    height: 40px;
+    width: 140px;
+    font-size: 15px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(81, 78, 78);
+    cursor: pointer;
+}
+
+
+
+
+#cardtwo{
+    height: 220px;
+    width: 240px;
+    /* background-color: black; */
+    /* background-image: url(rakeshclg.jpg); */
+    background-image: url(https://images.unsplash.com/photo-1583508915901-b5f84c1dcde1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c29mdHdhcmV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: top;
+    border-radius: 15px;
+    margin-top: 60px;
+     /* box-shadow: 10px 9px 30px 2px rgba(0,0,0,0.75);  */
+    /* box-shadow: 0px 8px 23px 14px rgba(0,0,0,0.75); */
+    
+}
+#cardthree{
+    height: 280px;
+    width: 240px;
+    /* background-color: black; */
+    border-radius: 15px;
+     /* box-shadow: 10px 9px 30px 2px rgba(0,0,0,0.75);  */
+    /* box-shadow: 0px 8px 23px 14px rgba(0,0,0,0.75); */
+    
+    
+}
+#updiv{
+    width: 120px;
+    height: 80px;
+    background-color:rgb(119, 112, 112);
+    margin-left: 58px;
+    border-radius: 10px;
+    
+}
+#updiv p{
+     font-size: 10px;
+     font-weight: 700;
+     margin-top: 10px;
+     margin-left: 13px;
+     cursor: pointer;
+}
+#updiv p:hover{
+    color: rgb(0, 26, 128);
+}
+#updiv button{
+    height: 38px;
+    width: 100px;
+    background-color: rgb(8, 8, 8);
+    color: antiquewhite;
+    border: none;
+    border-radius: 8px;
+    margin-left: 11px;
+    margin-top: 8px;
+    cursor: pointer;
+    font-weight: 700;
+}
+#updiv button:hover{
+    background-color: blanchedalmond;
+    color: black;
+}
+#cardthree  .down {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(68, 135, 152);
+    margin-top: 100px;
+    border-radius: 10px;
+    font-size: 15px;
+    color: white;
+    border: none;
+    font-size: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+#cardfour{
+    height: 230px;
+    width: 240px;
+    background-color: rgb(181, 21, 143);
+    border-radius: 15px;
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+     /* box-shadow: 10px 9px 30px 2px rgba(0,0,0,0.75);  */
+    /* box-shadow: 0px 8px 23px 14px rgba(0,0,0,0.75); */
+    
+}
+#pfp{
+    display: flex;
+    width: 100%;
+    /* background-color: rgb(43, 141, 226); */
+    border-radius: 5px;
+    
+}
+#pfp h4{
+    margin-top: 6px;
+    margin-left: 9px;
+}
+#pfp h6{
+    font-size: 10px;
+    margin-top: 13px;
+    margin-left: 19px;
+    color: rgba(54, 53, 53, 0.932);
+}
+#cardfour p{
+    font-weight: 500;
+    margin-left: 6px;
+    font-size: 15px;
+    
+}
+#profile{
+    height: 40px;
+    width: 40px;
+    background-image: url(https://plus.unsplash.com/premium_photo-1670282393309-70fd7f8eb1ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+#design{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    margin-top: 25px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+}
+#design button{
+    height: 35px;
+    width: 35px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    /* margin-top: 7px; */
+    border: none;
+    cursor: pointer;
+    font-weight: 800;
+}
+#design h4{
+    font-size: 17px;
+    margin-left: 15px;
+    /* margin-top: 3px; */
+}
+#design p{
+    font-size: 13px;
+    margin-left: 15px;
+    font-weight: 500;
+}
+/* tring */
+
+
+
+
+#designtwo{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    margin-top: 5px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+}
+#designtwo button{
+    height: 35px;
+    width: 35px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    /* margin-top: 7px; */
+    border: none;
+    cursor: pointer;
+    font-weight: 800;
+}
+#designtwo h4{
+    font-size: 17px;
+    margin-left: 15px;
+    /* margin-top: 3px; */
+}
+#designtwo p{
+    font-size: 13px;
+    margin-left: 15px;
+    font-weight: 500;
+}
+/* tring */
+
+
+
+
+
+#cardfive{
+    height: 280px;
+    width: 240px;
+    background-image: url(https://plus.unsplash.com/premium_photo-1664382465508-f9ef253859b1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGJvb2tzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    color:  white;
+     /* box-shadow: 10px 9px 30px 2px rgba(0,0,0,0.75);  */
+    /* box-shadow: 0px 8px 23px 14px rgba(0,0,0,0.75); */
+    
+    
+}
+#fiveoverlay{
+    background-color: rgba(1, 1, 8, 0.674);
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    
+}
+#fiveoverlay h4{
+    font-size: 25px;
+}
+#fiveoverlay button{
+    height: 60px;
+    width: 100%;
+    background-color: rgba(0, 0, 8, 0.456);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 90px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+#fiveoverlay button:hover{
+    color: blue;
+    background-color: rgba(174, 79, 174, 0.834);
+}
